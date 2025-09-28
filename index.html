@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josh's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <nav class="nav-header">
+        <div class="nav-container">
+            <div class="nav-logo gradient-text">Josh's Portfolio</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1 class="gradient-text">Hi, I'm Josh Manuel Kristianto</h1>
+        <p class="gradient-text">
+          and I love to explore the world of data science with a passion for quantitative finance and statistics.
+        </p>
+
+        <!-- Buttons Row -->
+        <div class="hero-buttons">
+          <a href="#contact" class="cta-button">Get In Touch</a>
+          <a href="images/Josh Manuel Kristianto CV.docx.pdf" download class="cta-button download-btn">Download CV</a>
+        </div>
+
+        <!-- Social Buttons Row with PNG Logo Icon Example -->
+        <div class="hero-secondary-buttons">
+          <a href="https://github.com/joshmanuelkristianto" target="_blank" rel="noopener" class="icon-button github-btn" aria-label="GitHub">
+            <!-- Example: Using a PNG logo icon instead of font icon -->
+            <img src="images/github.png" alt="GitHub Logo" style="width:35px; height:35px;">
+          </a>
+          <a href="https://www.linkedin.com/in/joshmanuelkristianto" target="_blank" rel="noopener" class="icon-button linkedin-btn" aria-label="LinkedIn">
+            <img src="images/linkedin.png" alt="LinkedIn Logo" style="width:35px; height:35px;">
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=josh.mkristianto@gmail.com" class="icon-button email-btn" aria-label="Email" target="_blank">
+            <img src="images/email.png" alt="Email Logo" style="width:35px; height:35px;">
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="hero-social">
+          <a href="mailto:josh.mkristianto@gmail.com" target="_blank" title="Email">
+            <i class="fa fa-envelope"></i>
+          </a>
+          <a href="https://github.com/joshmanuelkristianto" target="_blank" title="GitHub">
+            <i class="fa fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/joshmanuelkristianto" target="_blank" title="LinkedIn">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="image-placeholder">
+            <img src="./images/profile_ws.png" alt="Options Pricing Visual">
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about" aria-label="About Me">
+        <h2 class="section-title gradient-text fade-in-up">About Me</h2>
+  
+        <div class="about-carousel fade-in-up" aria-roledescription="carousel">
+          <button class="about-arrow about-prev" aria-label="Previous slide" title="Previous">&#10094;</button>
+  
+          <div class="about-viewport">
+            <div class="about-track">
+              <article class="about-slide" aria-label="Who I Am">
+                <div class="about-card">
+                  <div class="about-media">
+                    <img src="./images/exp1.jpg" alt="Portrait at desk">
+                  </div>
+                  <div class="about-text">
+                    <h3 class="gradient-text">Work Experience</h3>
+                    <p>
+                        During my internship as a Data Engineer, I worked on designing and implementing automated data collection processes for Indonesia’s largest F&B manufacturer. 
+                        My role focused on gathering and structuring operational data from multiple production lines to enhance visibility and decision-making. 
+                    </p>
+                    <p>
+                        This will then be used on identifying inefficiencies, prevent potential future errors, and maximize performance by optimizing the use of available resources. 
+                        This experience strengthened my skills in data engineering, automation, and collaboration with cross-functional teams.
+                    </p>                    
+                  </div>
+                </div>
+              </article>
+  
+              <article class="about-slide" aria-label="My Journey">
+                <div class="about-card">
+                  <div class="about-media">
+                    <img src="images/exp2.JPG" alt="Learning and coding on multiple screens">
+                  </div>
+                  <div class="about-text">
+                    <h3 class="gradient-text">Data Science Journey</h3>
+                    <p>
+                        As I progress through my journey as a data science student and intern, I’ve grown increasingly enthusiastic about the challenges and problems I encounter.
+                    </p>
+                    <p>
+                        Each new obstacle strengthens my analytical and technical skills, making the process of solving data-driven challenges both rewarding and fulfilling. This experience has reinforced my passion for data science and clarified that this is the field where I want to build my future career.
+                    </p>
+                  </div>
+                </div>
+              </article>
+  
+              <article class="about-slide" aria-label="My Passions">
+                <div class="about-card">
+                  <div class="about-media">
+                    <img src="./images/exp3.jpg" alt="Charts and data visualization">
+                  </div>
+                  <div class="about-text">
+                    <h3 class="gradient-text">Data Science in Finance & Quantitative World</h3>
+                    <p>
+                        As my journey continues, my interests have increasingly focused on finance and investments. I am passionate about applying data science tools and techniques, identifying why algorithmic model works, 
+                        statistical arbitrage application, options pricing strategies, to uncover insights, manage risk, and generate alpha in the financial markets.
+                    </p>
+                  </div>
+                </div>
+              </article>
+  
+              <article class="about-slide" aria-label="What's Next">
+                <div class="about-card">
+                  <div class="about-media">
+                    <img src="./images/exp4.jpg" alt="Planning ideas on a whiteboard">
+                  </div>
+                  <div class="about-text">
+                    <h3 class="gradient-text">What’s Next ?</h3>
+                    <p>
+                        Looking ahead, I am eager to advance my career at the intersection of data science and finance. My goal is to work on cutting-edge projects in quantitative research, investment analytics, and risk modeling, 
+                        where I can continue to grow my expertise, create impactful solutions, and contribute to innovation in the financial data science space.
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+  
+          <button class="about-arrow about-next" aria-label="Next slide" title="Next">&#10095;</button>
+        </div>
+  
+        <div class="about-dots" role="tablist" aria-label="Carousel Pagination"></div>
+      </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <h2 class="section-title gradient-text fade-in-up">Recent Projects</h2>
+        <div class="projects-container">
+            <div class="project-card fade-in-left" onclick="openModal('project1')" style="position: relative;">
+                <div class="project-arrow">➜</div>
+                <div class="project-image">
+                    <div class="img-layer bottom">
+                        <img src="./images/proj21.jpg" alt="Options Pricing Visual">
+                    </div>
+                    <div class="img-layer top">
+                        <img src="./images/BSM_VID.gif" alt="Black-Scholes Monte Carlo Demo">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title gradient-text">Options Pricing Heatmap Using Black-Scholes Monte Carlo Model</h3>
+                    <p class="project-description">Developed an interactive options pricing and analytics platform that combines the Black–Scholes model with Monte Carlo simulations to price derivatives and visualize risk exposure.</p>
+                </div>
+            </div>
+            <div class="project-card fade-in-up" onclick="openModal('project2')" style="position: relative;">
+                <div class="project-arrow">➜</div>
+                <div class="project-image">
+                    <div class="img-layer bottom">
+                        <img src="./images/proj2.jpg" alt="Equity Pairs Visualization">
+                    </div>
+                    <div class="img-layer top">
+                        <img src="./images/snp.gif" alt="Pairs Trading Backtest">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title gradient-text">S&P 500 Cointegrated Pairs Trading with Mean Reversion</h3>
+                    <p class="project-description">Pairs trading mean-reversion strategy using S&P500 price data. Calculates log returns to identify highly correlated pairs, applies the Engle-Granger ADF test for cointegration, and trades when spread’s z-score deviates from mean.</p>
+                </div>
+            </div>
+            <div class="project-card fade-in-left" onclick="openModal('project5')" style="position: relative;">
+                <div class="project-arrow">➜</div>
+                <div class="project-image">
+                    <div class="img-layer bottom">
+                        <img src="./images/proj21.jpg" alt="Options Pricing Visual">
+                    </div>
+                    <div class="img-layer top">
+                        <img src="./images/cluster.png" alt="Black-Scholes Monte Carlo Demo">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title gradient-text">E-Commerce Customer Clustering with K-Means and Post EDA of Clusters</h3>
+                    <p class="project-description">Developed an interactive options pricing and analytics platform that combines the Black–Scholes model with Monte Carlo simulations to price derivatives and visualize risk exposure.</p>
+                </div>
+            </div>       
+            <div class="project-card fade-in-right" onclick="openModal('project3')" style="position: relative;">
+                <div class="project-arrow">➜</div>
+                <div class="project-image">
+                    <div class="img-layer bottom">
+                        <img src="./images/proj1.jpg" alt="Movie Data Visualization">
+                    </div>
+                    <div class="img-layer top">
+                        <img src="./images/proj3.jpg" alt="Recommendation UI Mock">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title gradient-text">Content Based Movie Recommendation System</h3>
+                    <p class="project-description">A hybrid movie recommender system that blends content-based and collaborative filtering, converting text data into numerical through TF-IDF vectorization and applies Singular Value Decomposition to user–movie rating data.</p>
+                </div>
+            </div>
+            <div class="project-card fade-in-right" onclick="openModal('project4')" style="position: relative;">
+                <div class="project-arrow">➜</div>
+                <div class="project-image">
+                    <div class="img-layer bottom">
+                        <img src="./images/proj1.jpg" alt="Credit Risk Data Charts">
+                    </div>
+                    <div class="img-layer top">
+                        <img src="./images/loan_decision.gif" alt="Classification Results">
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title gradient-text">Bank Credit Loan Classification using XGBoost</h3>
+                    <p class="project-description">Developed a Bank Loan Decision Maker using XGBoost to predict loan approvals. Applied EDA to uncover trends, performed data cleaning for accuracy, built and tuned the model, and deployed it as a user-friendly application for real-time decision support.</p>
+                </div>
+            </div>  
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <h2 class="section-title gradient-text fade-in-up">Skills & Expertise</h2>
+        <div class="skills-grid" style="display: grid; grid-template-columns: repeat(5, 1fr); grid-template-rows: repeat(2, 1fr); gap: 20px;">
+            <div class="skill-card fade-in-left">
+                <div class="skill-icon">
+                    <img src="./images/excel.png" alt="Excel Icon" class="profile-silhouette">
+                </div>
+                <h3 class="gradient-text">Excel</h3>
+                <p style="opacity: 0.75;">Rapid prototyping, financial modeling, and quick scenario analysis.</p>
+            </div>
+            <div class="skill-card fade-in-up">
+                <div class="skill-icon">
+                    <img src="./images/python.png" alt="Python Icon" class="profile-silhouette">
+                </div>
+                <h3 class="gradient-text">Python</h3>
+                <p style="opacity: 0.75;">Data analysis, machine learning, and building production models.</p>
+            </div>
+            <div class="skill-card fade-in-left">
+                <div class="skill-icon">
+                    <img src="./images/C.png" alt="HTML5 Icon" class="profile-silhouette">
+                </div>
+                <h3 class="gradient-text">C++</h3>
+                <p style="opacity: 0.75;">High-performance computing for real-time trading systems and low-latency models.</p>
+            </div>
+            <div class="skill-card fade-in-right">
+                <div class="skill-icon">
+                    <img src="./images/sql.png" alt="SQL Icon" class="profile-silhouette">
+                </div>
+                <h3 class="gradient-text">SQL</h3>
+                <p style="opacity: 0.75;">Essential for extracting, cleaning, and managing large financial datasets.</p>
+            </div>
+            <div class="skill-card fade-in-up">
+                <div class="skill-icon">
+                    <img src="./images/R.png" alt="R Icon" class="profile-silhouette">
+                </div>
+                <h3 class="gradient-text">R</h3>
+                <p style="opacity: 0.75;">Powerful for statistical modeling, econometrics, and advanced visualization.</p>
+            </div>
+            <div class="skill-card fade-in-right">
+                <h3 class="gradient-text">Mathematics & Statistics</h3>
+                <p style="opacity: 0.75;">Deep understanding of probability, linear algebra, stochastic processes, optimization, and time-series analysis.</p>
+            </div>
+            <div class="skill-card fade-in-up">
+                <h3 class="gradient-text">Financial Theory & Products</h3>
+                <p style="opacity: 0.75;">Knowledge of derivatives, fixed income, options pricing models, risk management frameworks, etc.</p>
+            </div>
+            <div class="skill-card fade-in-left">
+                <h3 class="gradient-text">Algorithmic & High-Performance Computing</h3>
+                <p style="opacity: 0.75;">Efficient code, parallelization, and low-latency systems for trading or risk systems.</p>
+            </div>
+            <div class="skill-card fade-in-right">
+                <h3 class="gradient-text">Risk Awareness & Critical Thinking</h3>
+                <p style="opacity: 0.75;">Understanding model limitations, stress testing, and ensuring regulatory compliance and robustness.</p>
+            </div>
+            <div class="skill-card fade-in-up">
+                <h3 class="gradient-text">Machine Learning & Modeling</h3>
+                <p style="opacity: 0.75;">Applying supervised and unsupervised learning, feature engineering, and predictive modeling to financial data.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="certi-section" id="certificates">
+      <h2 class="section-title gradient-text fade-in-up">Certificates</h2>
+      <div class="certi-grid">
+            <!-- Certificate Modal -->
+    <div id="certificateModal" class="modal">
+          <span class="close" onclick="closeCertificateModal()">&times;</span>
+          <img class="modal-content" id="certificateImage">
+          <div id="certificateCaption"></div>
+        </div>
+    
+        <div class="certi-card fade-in-left" 
+             onclick="openCertificateModal('./images/dsco.jpg', 'Data Visualization Competition Finalist')">
+            <div class="certi-image">
+                <img src="./images/dsco.jpg" alt="Profile" class="profile-silhouette">
+            </div>
+          <div class="certi-content">
+            <h3 class="certi-title gradient-text">Data Visualization Competition Finalist</h3>
+            <p class="certi-description">Achieved finalist status in a competitive data visualization challenge showcasing analytical and storytelling skills.</p>
+          </div>
+        </div>
+            <div class="certi-card fade-in-left" 
+                onclick="openCertificateModal('./images/nvidia.jpg', 'Nvidia Fundamentals of Deep Learning')">
+            <div class="certi-image">
+                <img src="./images/nvidia.jpg" alt="Certificate Image">
+            </div>
+          <div class="certi-content">
+            <h3 class="certi-title gradient-text">Nvidia Fundamentals of Deep Learning</h3>
+            <p class="certi-description">Completed NVIDIA’s Fundamentals of Deep Learning program covering core deep learning concepts and practical applications.</p>
+          </div>
+        </div>
+            <div class="certi-card fade-in-left" 
+                onclick="openCertificateModal('./images/ielts.jpg', 'IELTS Band 8.0')">
+            <div class="certi-image">
+                <img src="./images/ielts.jpg" alt="Certificate Image">
+            </div>
+          <div class="certi-content">
+            <h3 class="certi-title gradient-text">IELTS Band 8.0</h3>
+            <p class="certi-description">Earned an IELTS score of 8.0, demonstrating advanced English proficiency in reading, writing, listening, and speaking.</p>
+          </div>
+        </div>
+            <div class="certi-card fade-in-left" 
+                onclick="openCertificateModal('./images/kpmg.jpg', 'KPMG Company Seminar')">
+            <div class="certi-image">
+                <img src="./images/kpmg.jpg" alt="Certificate Image">
+            </div>
+          <div class="certi-content">
+            <h3 class="certi-title gradient-text">KPMG Company Seminar</h3>
+            <p class="certi-description">Participated in a KPMG seminar on cloud computing and data analytics, gaining insights into big-four consulting practices.</p>
+          </div>        
+      </div>
+            <div class="certi-card fade-in-left" 
+                onclick="openCertificateModal('./images/certi5.jpg', 'KPMG Company Seminar')">
+            <div class="certi-image">
+                <img src="./images/certi5.jpg" alt="Certificate Image">
+            </div>
+          <div class="certi-content">
+            <h3 class="certi-title gradient-text">Data Science Course with Stanford's Prof. Widom</h3>
+            <p class="certi-description">Led by Stanford Engineering Dean Professor Jennifer Widom, focusing on data analysis, visualization, and machine learning with spreadsheets, Tableau, and Python.</p>
+          </div>  
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title gradient-text fade-in-up">Let's Work Together</h2>
+        <div class="contact-static-content fade-in-up" style="max-width:800px;margin:0 auto;text-align:center;">
+            <p style="margin-bottom:2em; font-size:1.25rem; opacity:0.85;">
+                Thank you for taking the time to explore my website! I’m always excited to connect with like-minded professionals, collaborators, and fellow data enthusiasts. Feel free to reach out to me directly through the links below or contact me via email at 
+                <span style="color:#22c55e; font-weight:bold;">josh.mkristianto@gmail.com</span>, I’d be happy to hear from you.
+            </p>
+            <div class="hero-secondary-buttons" style="justify-content:center; margin-bottom: 2em;">
+                <a href="https://github.com/joshmanuelkristianto" target="_blank" rel="noopener" class="icon-button github-btn" aria-label="GitHub" style="margin: 0 10px;">
+                    <img src="images/github.png" alt="GitHub Logo" style="width:35px; height:35px;">
+                </a>
+                <a href="https://www.linkedin.com/in/joshmanuelkristianto" target="_blank" rel="noopener" class="icon-button linkedin-btn" aria-label="LinkedIn" style="margin: 0 10px;">
+                    <img src="images/linkedin.png" alt="LinkedIn Logo" style="width:35px; height:35px;">    
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=josh.mkristianto@gmail.com" class="icon-button email-btn" aria-label="Email" target="_blank">
+                    <img src="images/email.png" alt="Email Logo" style="width:35px; height:35px;">
+                  </a>                 
+            </div>
+            <div class="contact-footer-links" style="margin-top:2em; font-size:1rem;">
+                <a href="#home" style="color:#22c55e; text-decoration:none; margin:0 10px;">Home</a> |
+                <a href="#about" style="color:#22c55e; text-decoration:none; margin:0 10px;">About</a> |
+                <a href="#projects" style="color:#22c55e; text-decoration:none; margin:0 10px;">Projects</a> |
+                <a href="#skills" style="color:#22c55e; text-decoration:none; margin:0 10px;">Skills</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Project Details -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content" style="max-height: 80vh; overflow-y: auto;">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalBody">
+                <!-- Project 1: Options Pricing Heatmap -->
+                <div class="project-details" id="project1" style="display:none;">
+                    <h3 class="project-title gradient-text">Options Pricing Heatmap Using Black-Scholes Monte Carlo Model</h3>
+                    <img src="./images/options_heatmap.jpg" alt="Options Pricing Heatmap Screenshot" style="width:100%;max-width:400px;border-radius:8px;margin-bottom:1em;">
+                    <p class="project-description">
+                        A comprehensive options pricing and analytics platform that combines the Black–Scholes model with Monte Carlo simulations to price derivatives and visualize risk exposure through interactive heatmaps.
+                    </p>
+                    <ul class="project-bullets">
+                        <li>Interactive heatmap visualization of option prices across different strike prices and expiration dates</li>
+                        <li>Real-time Monte Carlo simulations for accurate pricing under various market conditions</li>
+                        <li>Advanced risk metrics calculation including Greeks (Delta, Gamma, Theta, Vega)</li>
+                        <li>Built with <strong>Python</strong>, <strong>NumPy</strong>, and <strong>Matplotlib</strong> for computational finance</li>
+                        <li>Interactive web interface using <strong>Streamlit</strong> for user-friendly parameter input</li>
+                        <li>Supports both European and American-style options</li>
+                    </ul>
+                    <div class="project-links" style="margin-top: 1.5em;">
+                        <a href="https://github.com/joshmanuelkristianto/options-pricing-heatmap" target="_blank" rel="noopener" class="project-link-btn" style="margin-right: 10px;">
+                            <i class="fa fa-github"></i> View on GitHub
+                        </a>
+                        <a href="https://blackscholes-montecarlo.streamlit.app" target="_blank" rel="noopener" class="project-link-btn">
+                            <i class="fa fa-external-link"></i> Live Demo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: S&P 500 Pairs Trading -->
+                <div class="project-details" id="project2" style="display:none;">
+                    <h3 class="project-title gradient-text">S&P 500 Pairs Trading Using Mean Reversion</h3>
+                    <img src="./images/pairs_trading.jpg" alt="Pairs Trading Strategy Screenshot" style="width:100%;max-width:400px;border-radius:8px;margin-bottom:1em;">
+                    <p class="project-description">
+                        A sophisticated statistical arbitrage strategy that identifies and trades cointegrated equity pairs within the S&P 500 universe, leveraging mean reversion principles for consistent returns.
+                    </p>
+                    <ul class="project-bullets">
+                        <li>Automated pair identification using cointegration testing and correlation analysis</li>
+                        <li>Statistical arbitrage signals based on z-score thresholds and mean reversion</li>
+                        <li>Comprehensive backtesting framework with risk management controls</li>
+                        <li>Real-time data integration using <strong>Yahoo Finance API</strong> and <strong>Alpha Vantage</strong></li>
+                        <li>Performance analytics including Sharpe ratio, maximum drawdown, and win rate</li>
+                        <li>Built with <strong>Python</strong>, <strong>Pandas</strong>, and <strong>Statsmodels</strong></li>
+                    </ul>
+                    <div class="project-links" style="margin-top: 1.5em;">
+                        <a href="https://github.com/joshmanuelkristianto/sp500-pairs-trading" target="_blank" rel="noopener" class="project-link-btn" style="margin-right: 10px;">
+                            <i class="fa fa-github"></i> View on GitHub
+                        </a>
+                        <a href="https://pairs-trading-dashboard.herokuapp.com" target="_blank" rel="noopener" class="project-link-btn">
+                            <i class="fa fa-external-link"></i> Live Dashboard
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3: Movie Recommendation System -->
+                <div class="project-details" id="project3" style="display:none;">
+                    <h3 class="project-title gradient-text">Content Based Movie Recommendation System</h3>
+                    <img src="./images/movie_recommendation.jpg" alt="Movie Recommendation System Screenshot" style="width:100%;max-width:400px;border-radius:8px;margin-bottom:1em;">
+                    <p class="project-description">
+                        An intelligent movie recommendation system that uses content-based filtering to suggest personalized movies based on user preferences, genre analysis, and movie metadata.
+                    </p>
+                    <ul class="project-bullets">
+                        <li>Content-based filtering using TF-IDF vectorization and cosine similarity</li>
+                        <li>Advanced natural language processing for movie plot and genre analysis</li>
+                        <li>Interactive web interface with search and filter capabilities</li>
+                        <li>Machine learning pipeline built with <strong>Scikit-learn</strong> and <strong>NLTK</strong></li>
+                        <li>Database integration with <strong>SQLite</strong> for efficient movie metadata storage</li>
+                        <li>Responsive design with <strong>Flask</strong> backend and <strong>Bootstrap</strong> frontend</li>
+                    </ul>
+                    <div class="project-links" style="margin-top: 1.5em;">
+                        <a href="https://github.com/joshmanuelkristianto/movie-recommendation-system" target="_blank" rel="noopener" class="project-link-btn" style="margin-right: 10px;">
+                            <i class="fa fa-github"></i> View on GitHub
+                        </a>
+                        <a href="https://movie-recommender-josh.herokuapp.com" target="_blank" rel="noopener" class="project-link-btn">
+                            <i class="fa fa-external-link"></i> Try It Live
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 4: Bank Credit Loan Classification -->
+                <div class="project-details" id="project4" style="display:none;">
+                    <h3 class="project-title gradient-text">Bank Credit Loan Classification using XGBoost</h3>
+                    <img src="./images/loan_decision.gif" alt="Credit Classification Model Screenshot" style="width:100%;max-width:400px;border-radius:8px;margin-bottom:1em;">
+                    <p class="project-description">
+                        A machine learning solution for predicting loan default risk using advanced ensemble methods, helping financial institutions make data-driven lending decisions with high accuracy.
+                    </p>
+                    <ul class="project-bullets">
+                        <li>XGBoost classifier with hyperparameter tuning for optimal performance</li>
+                        <li>Comprehensive feature engineering including financial ratios and risk indicators</li>
+                        <li>Data preprocessing pipeline handling missing values and categorical encoding</li>
+                        <li>Model interpretability using SHAP values and feature importance analysis</li>
+                        <li>Cross-validation and performance evaluation with precision, recall, and F1-score</li>
+                        <li>Built with <strong>Python</strong>, <strong>XGBoost</strong>, and <strong>Scikit-learn</strong></li>
+                    </ul>
+                    <div class="project-links" style="margin-top: 1.5em;">
+                        <a href="https://github.com/joshmanuelkristianto/bank-credit-classification" target="_blank" rel="noopener" class="project-link-btn" style="margin-right: 10px;">
+                            <i class="fa fa-github"></i> View on GitHub
+                        </a>
+                        <a href="https://credit-risk-predictor.streamlit.app" target="_blank" rel="noopener" class="project-link-btn">
+                            <i class="fa fa-external-link"></i> Live Predictor
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.13.1/firebase-firestore-compat.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
